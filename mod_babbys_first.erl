@@ -2,6 +2,7 @@
 
 -behaviour(gen_mod).
 
+-include("ejabberd.hrl").
 -include("logger.hrl").
 
 -export([start/2,
